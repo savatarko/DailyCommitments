@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rs.raf.projekat1.sava_ivkovic_rn1220.activities.NewActActivity"
+    android:background="@color/background5"
+    >
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/placeholder"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@color/theme"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        >
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/low"
+            android:backgroundTint="@color/loww"
+            />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/notselected"
+            android:text="@string/mid" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/notselected"
+            android:text="@string/high" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/titleofactivity"
+        android:background="@drawable/roundshape4"
+        android:paddingStart="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="@string/start"
+        android:background="@drawable/roundshape4"
+        android:paddingStart="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="@string/end"
+        android:background="@drawable/roundshape4"
+        android:paddingStart="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="@string/description"
+        android:layout_weight="10"
+        android:background="@drawable/roundshape4"
+        android:paddingStart="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/create"
+            android:background="@drawable/roundshape2"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:background="@drawable/roundshape3"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
